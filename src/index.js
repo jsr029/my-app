@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Switch>
-      <Route path={process.env.PUBLIC_URL + '/'}>
+      <Route exact path={process.env.PUBLIC_URL + '/'}>
         <App />
       </Route>  
     </Switch>
